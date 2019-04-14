@@ -1,0 +1,7 @@
+raio = float(input())
+angulo = float(input())
+pi = 3.14
+resultado = angulo * pi * raio / 180
+resultado2 = angulo * pi * raio * raio / 360
+print("%.2f"%resultado)
+print("%.2f"%resultado2)
