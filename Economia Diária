@@ -1,0 +1,16 @@
+n = 0
+anterio = 0
+posterio = 0
+soma = 0
+acum = 0
+quant = 0
+while acum < 7:
+    acum = acum + 1
+    anterio = posterio
+    n = float(input())
+    posterio = n
+    soma = soma + n
+    if posterio > anterio:
+        quant = quant + 1
+print ('R$','%.2f'%soma)
+print (quant-1)
