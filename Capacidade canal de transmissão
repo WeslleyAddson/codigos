@@ -1,0 +1,6 @@
+v = float(input())
+a = float(input())
+d = float (input())
+c = float (input())
+QDmax = (v*5.2 + a*3.4 + d*1.5) / c
+print("%.2f"%QDmax)
