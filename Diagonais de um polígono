@@ -1,0 +1,3 @@
+n = float(input())
+diagonais = (n*(n-3)/2)
+print("%.f"%diagonais)
