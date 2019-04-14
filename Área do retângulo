@@ -1,0 +1,4 @@
+maior = float(input())
+menor = float(input())
+area = (maior * menor)
+print("%.f"%area)
