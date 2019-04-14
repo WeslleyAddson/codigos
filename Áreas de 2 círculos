@@ -1,0 +1,12 @@
+c = float (input())
+c2 = float (input())
+raio = c/(2*3.14)
+raio2 = c2/(2*3.14)
+a = 3.14 * raio * raio
+a2 =3.14 * raio2 * raio2
+if c > c2:
+    print('Primeiro circulo')
+elif c < c2 :
+    print ("Segundo circulo")
+else:
+    print ('Iguais')
