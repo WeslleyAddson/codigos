@@ -1,0 +1,8 @@
+str = input()
+n = len(str)
+soma = 0
+letra = input()
+for x in range (n):
+    if str[x] == letra:
+        soma = soma + 1
+print(soma)
