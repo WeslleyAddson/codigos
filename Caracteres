@@ -1,0 +1,13 @@
+r = ''
+t = 0
+while t == 0:
+    n = int(input())
+    if n == 0:
+        break
+    str = input()
+    n2 = len(str)
+    for x in range (0,n2):
+        r = r+str[n2-1]
+        n2 = n2 - 1
+    print(r)
+    r = ''
