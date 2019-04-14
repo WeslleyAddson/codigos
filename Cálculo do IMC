@@ -1,0 +1,5 @@
+peso= float(input())
+altura= float(input())
+altura2= altura * altura
+peso2= peso/altura2
+print("%.2f"%peso2)
