@@ -1,0 +1,13 @@
+soma = 0
+txt = 0
+while txt == 0:
+    nqp = int(input())
+    if nqp < 0:
+        break
+    nqm = int(input())
+    red = float(input())
+    if nqp > 39:
+        if nqm > 20:
+            if red >= 7:
+                soma = soma + 1
+print(soma)
