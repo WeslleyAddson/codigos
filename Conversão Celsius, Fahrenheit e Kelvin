@@ -1,0 +1,23 @@
+test = input('')
+t = float (input(''))
+if(test == 'C' and t >= -273.0):
+
+    resultadof = (t * 9/5) + 32
+    resultadok = t + 273.15
+    print('%.2f'%resultadof,'F')
+    print('%.2f'%resultadok,'K')
+
+elif(test == 'K' and t >= 0):
+
+    resultadoc = t - 273.15
+    resultadof = ( t - 273.15 ) * 9/5 + 32
+    print('%.2f'%resultadoc,'C')
+    print('%.2f'%resultadof,'F')
+
+elif(test == 'F' and t >= -459.67):
+    resultadoc = (t - 32) * 5/9
+    resultadok = (t - 32) * 5/9 + 273.15
+    print('%.2f'%resultadoc,'C')
+    print('%.2f'%resultadok,'K')
+else:
+    print('Valor de temperatura abaixo do minimo')
