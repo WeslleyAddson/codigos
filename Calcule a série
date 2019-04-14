@@ -1,0 +1,24 @@
+n = int(input())
+soma = 0
+soma2 = 0
+soma3 = 0
+x= 1
+y= 3
+r = ''
+z = 0
+for t in range(n):
+    soma = x/y
+    soma3 = soma3 + 1
+    s = str(x)
+    t = str(y)
+    r = r+s+'/'+t
+    if soma3 < n:
+     r = r+' + '
+    x = x + 1
+    y = y + 3
+    soma2 = soma2 + soma
+if n > 0:
+ print(r)
+ print('%.2f'%soma2)
+elif n == 0:
+    print('0.00')
